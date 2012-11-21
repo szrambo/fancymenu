@@ -5,8 +5,8 @@ FancyMenu is A popup menu that similar to the share menu in Summly App.
 
 How to use:
 --------
-Long Press on the screen show;
-Tap on the screen to hide;
+Long Press on the screen show
+Tap on the screen to hide
 Create the menu by setting up the item array
 	
 	NSArray *images = @[[UIImage imageNamed:@"petal-twitter.png"],[UIImage imageNamed:@"petal-facebook.png"],[UIImage imageNamed:@"petal-email.png"],[UIImage imageNamed:@"petal-save.png"]];
@@ -22,4 +22,9 @@ Configure your viewController and conform to the FAFancyMenuViewDelegate
 	}
 
 
+About me:
+--------
 
+	Twitter: [@szrambo](http://twitter.com/szrambo) 
+
+	Sina Weibo: [@82010292](http://weibo.com/82010292) 
