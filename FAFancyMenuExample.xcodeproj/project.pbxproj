@@ -18,6 +18,14 @@
 		7F6F124A165D19C800133A0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1249165D19C800133A0F /* Default-568h@2x.png */; };
 		7F6F124D165D19C800133A0F /* FAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F124C165D19C800133A0F /* FAViewController.m */; };
 		7F6F1250165D19C800133A0F /* FAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F124E165D19C800133A0F /* FAViewController.xib */; };
+		7F6F125B165D19E700133A0F /* FAFancyMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1258165D19E700133A0F /* FAFancyMenuView.m */; };
+		7F6F125C165D19E700133A0F /* FAFancyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F125A165D19E700133A0F /* FAFancyButton.m */; };
+		7F6F125E165D19F300133A0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F125D165D19F300133A0F /* QuartzCore.framework */; };
+		7F6F1264165D1A4600133A0F /* petal-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F125F165D1A4600133A0F /* petal-email@2x.png */; };
+		7F6F1265165D1A4600133A0F /* petal-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1260165D1A4600133A0F /* petal-facebook@2x.png */; };
+		7F6F1266165D1A4600133A0F /* petal-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1261165D1A4600133A0F /* petal-save@2x.png */; };
+		7F6F1267165D1A4600133A0F /* petal-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1262165D1A4600133A0F /* petal-twitter@2x.png */; };
+		7F6F1268165D1A4600133A0F /* petal-unsave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1263165D1A4600133A0F /* petal-unsave@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,16 @@
 		7F6F124B165D19C800133A0F /* FAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAViewController.h; sourceTree = "<group>"; };
 		7F6F124C165D19C800133A0F /* FAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAViewController.m; sourceTree = "<group>"; };
 		7F6F124F165D19C800133A0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FAViewController.xib; sourceTree = "<group>"; };
+		7F6F1257165D19E700133A0F /* FAFancyMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFancyMenuView.h; sourceTree = "<group>"; };
+		7F6F1258165D19E700133A0F /* FAFancyMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFancyMenuView.m; sourceTree = "<group>"; };
+		7F6F1259165D19E700133A0F /* FAFancyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFancyButton.h; sourceTree = "<group>"; };
+		7F6F125A165D19E700133A0F /* FAFancyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFancyButton.m; sourceTree = "<group>"; };
+		7F6F125D165D19F300133A0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7F6F125F165D1A4600133A0F /* petal-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-email@2x.png"; sourceTree = "<group>"; };
+		7F6F1260165D1A4600133A0F /* petal-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-facebook@2x.png"; sourceTree = "<group>"; };
+		7F6F1261165D1A4600133A0F /* petal-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-save@2x.png"; sourceTree = "<group>"; };
+		7F6F1262165D1A4600133A0F /* petal-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-twitter@2x.png"; sourceTree = "<group>"; };
+		7F6F1263165D1A4600133A0F /* petal-unsave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-unsave@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6F125E165D19F300133A0F /* QuartzCore.framework in Frameworks */,
 				7F6F1234165D19C800133A0F /* UIKit.framework in Frameworks */,
 				7F6F1236165D19C800133A0F /* Foundation.framework in Frameworks */,
 				7F6F1238165D19C800133A0F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +75,7 @@
 		7F6F1224165D19C700133A0F = {
 			isa = PBXGroup;
 			children = (
+				7F6F125D165D19F300133A0F /* QuartzCore.framework */,
 				7F6F1239165D19C800133A0F /* FAFancyMenuExample */,
 				7F6F1232165D19C800133A0F /* Frameworks */,
 				7F6F1230165D19C800133A0F /* Products */,
@@ -83,6 +103,7 @@
 		7F6F1239165D19C800133A0F /* FAFancyMenuExample */ = {
 			isa = PBXGroup;
 			children = (
+				7F6F1256165D19DA00133A0F /* Fancy Menu */,
 				7F6F1242165D19C800133A0F /* FAAppDelegate.h */,
 				7F6F1243165D19C800133A0F /* FAAppDelegate.m */,
 				7F6F124B165D19C800133A0F /* FAViewController.h */,
@@ -96,6 +117,11 @@
 		7F6F123A165D19C800133A0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7F6F125F165D1A4600133A0F /* petal-email@2x.png */,
+				7F6F1260165D1A4600133A0F /* petal-facebook@2x.png */,
+				7F6F1261165D1A4600133A0F /* petal-save@2x.png */,
+				7F6F1262165D1A4600133A0F /* petal-twitter@2x.png */,
+				7F6F1263165D1A4600133A0F /* petal-unsave@2x.png */,
 				7F6F123B165D19C800133A0F /* FAFancyMenuExample-Info.plist */,
 				7F6F123C165D19C800133A0F /* InfoPlist.strings */,
 				7F6F123F165D19C800133A0F /* main.m */,
@@ -105,6 +131,17 @@
 				7F6F1249165D19C800133A0F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F6F1256165D19DA00133A0F /* Fancy Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F1257165D19E700133A0F /* FAFancyMenuView.h */,
+				7F6F1258165D19E700133A0F /* FAFancyMenuView.m */,
+				7F6F1259165D19E700133A0F /* FAFancyButton.h */,
+				7F6F125A165D19E700133A0F /* FAFancyButton.m */,
+			);
+			name = "Fancy Menu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +201,11 @@
 				7F6F1248165D19C800133A0F /* Default@2x.png in Resources */,
 				7F6F124A165D19C800133A0F /* Default-568h@2x.png in Resources */,
 				7F6F1250165D19C800133A0F /* FAViewController.xib in Resources */,
+				7F6F1264165D1A4600133A0F /* petal-email@2x.png in Resources */,
+				7F6F1265165D1A4600133A0F /* petal-facebook@2x.png in Resources */,
+				7F6F1266165D1A4600133A0F /* petal-save@2x.png in Resources */,
+				7F6F1267165D1A4600133A0F /* petal-twitter@2x.png in Resources */,
+				7F6F1268165D1A4600133A0F /* petal-unsave@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +219,8 @@
 				7F6F1240165D19C800133A0F /* main.m in Sources */,
 				7F6F1244165D19C800133A0F /* FAAppDelegate.m in Sources */,
 				7F6F124D165D19C800133A0F /* FAViewController.m in Sources */,
+				7F6F125B165D19E700133A0F /* FAFancyMenuView.m in Sources */,
+				7F6F125C165D19E700133A0F /* FAFancyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

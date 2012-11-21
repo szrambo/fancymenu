@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FAViewController : UIViewController
+#import "FAFancyMenuView.h"
+@interface FAViewController : UIViewController<FAFancyMenuViewDelegate>
 
 @end
